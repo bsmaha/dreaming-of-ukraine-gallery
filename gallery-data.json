@@ -1,0 +1,1714 @@
+{
+  "ok": true,
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-06T02:39:45.862633+00:00",
+  "exhibition": {
+    "title": "Dreaming of Ukraine"
+  },
+  "counts": {
+    "artworks": 39,
+    "authors": 5,
+    "warnings": 0
+  },
+  "artworks": [
+    {
+      "id": "ART-001",
+      "stripeProductId": "prod_Ur7qxROaieeljK",
+      "title": "Girl Horse",
+      "artistName": "Oksana Rubio",
+      "artist": {
+        "id": "AUT-005",
+        "name": "Oksana Rubio",
+        "bio": "Oksana Rubio is originally from Ukraine and teaches art at the Tidewater Ukrainian School in Virginia Beach. She enjoys working in the mediums of wood, paint, bas-relief, and textiles. Using her many talents, Oksana specializes in breathing fresh life into her art and furniture. Oksana is able to source unique items for Ancestral Energy through her many connections of friends and family around the globe. She currently lives in Suffolk with her husband and step-daughter, and enjoys playing the drums.",
+        "photo": {
+          "id": "1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl",
+          "filename": "Oksana-Rubio.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl",
+          "alt": "Oksana Rubio"
+        }
+      },
+      "medium": "Oil, structural paste",
+      "mediumFilters": [
+        "Oil",
+        "Structural paste"
+      ],
+      "dimensions": {
+        "width": 13,
+        "height": 16,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "13 × 16 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "available",
+      "description": "A young woman rests closely against the head of a horse, their profiles merging into a single intimate composition. Built in pronounced relief, the work uses warm bronze and gold tones against a dark, textured ground, while turquoise details trace the woman’s hair, jewelry, and ornamentation. The sculptural surface gives the figures a weathered, almost archaeological quality, evoking tenderness, trust, and a deep connection between human and animal.",
+      "image": {
+        "id": "1BOL0xZ76lrh0S3jRJjV7mYABCvTwyKkg",
+        "filename": "Girl-Horse.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1BOL0xZ76lrh0S3jRJjV7mYABCvTwyKkg&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1BOL0xZ76lrh0S3jRJjV7mYABCvTwyKkg",
+        "alt": "Girl Horse by Oksana Rubio"
+      },
+      "checkoutUrl": "https://buy.stripe.com/00wbJ060ne039kadMZbZe0p?ref=ucchamptonroads.com",
+      "framed": true
+    },
+    {
+      "id": "ART-002",
+      "stripeProductId": "prod_Ur7q2SVgiKi7Ag",
+      "title": "Fragments of Lascaux Cave",
+      "artistName": "Oksana Rubio",
+      "artist": {
+        "id": "AUT-005",
+        "name": "Oksana Rubio",
+        "bio": "Oksana Rubio is originally from Ukraine and teaches art at the Tidewater Ukrainian School in Virginia Beach. She enjoys working in the mediums of wood, paint, bas-relief, and textiles. Using her many talents, Oksana specializes in breathing fresh life into her art and furniture. Oksana is able to source unique items for Ancestral Energy through her many connections of friends and family around the globe. She currently lives in Suffolk with her husband and step-daughter, and enjoys playing the drums.",
+        "photo": {
+          "id": "1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl",
+          "filename": "Oksana-Rubio.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl",
+          "alt": "Oksana Rubio"
+        }
+      },
+      "medium": "Oil, structural paste",
+      "mediumFilters": [
+        "Oil",
+        "Structural paste"
+      ],
+      "dimensions": {
+        "width": 18,
+        "height": 15,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "18 × 15 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "available",
+      "description": "Inspired by the prehistoric imagery of the Lascaux caves, this textured composition evokes the fragmentary survival of ancient marks across time. A bull-like figure emerges from a layered, weathered surface of black, ochre, cream, and muted gold, surrounded by lines and forms that resemble eroded drawings, mineral stains, and traces of human touch. Structural paste gives the surface a rough, archaeological quality, making the work feel less like a depiction of cave art than a recovered section of an ancient wall.",
+      "image": {
+        "id": "1yd9LRL5F7zFdIUuzi8qrutnz9EwJCv2E",
+        "filename": "Fragments-of-Lascaux-Cave.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1yd9LRL5F7zFdIUuzi8qrutnz9EwJCv2E&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1yd9LRL5F7zFdIUuzi8qrutnz9EwJCv2E",
+        "alt": "Fragments of Lascaux Cave by Oksana Rubio"
+      },
+      "checkoutUrl": "https://buy.stripe.com/dRm14m88v8FJ7c238lbZe0q?ref=ucchamptonroads.com",
+      "framed": true
+    },
+    {
+      "id": "ART-003",
+      "stripeProductId": "prod_Upt1a9HYvngfqC",
+      "title": "Sunflowers",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Acrylic",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 30,
+        "height": 24,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "30 × 24 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 1400,
+        "currency": "USD",
+        "formatted": "$1,400"
+      },
+      "status": "available",
+      "description": "A vibrant mass of sunflowers fills the canvas with color and movement. Brilliant yellows, fiery reds, deep greens, and flashes of turquoise create a dense, celebratory composition, while thick impasto gives the petals and leaves a lively sculptural presence. The dark flower centers are enriched with sparkling accents, adding depth and a shifting play of light across the surface. Energetic and abundant, the work captures the warmth, vitality, and exuberance of a garden at its peak.",
+      "image": {
+        "id": "1kDqXnF6U3XuIXWbH89OwC7K16aCZSqSd",
+        "filename": "Sunflowers.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1kDqXnF6U3XuIXWbH89OwC7K16aCZSqSd&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1kDqXnF6U3XuIXWbH89OwC7K16aCZSqSd",
+        "alt": "Sunflowers by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/cNi3cu0G36xB8g65gtbZe0f?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-004",
+      "stripeProductId": "prod_UpsyBMUrZr7dMA",
+      "title": "Spring Petals",
+      "artistName": "Anastasia Ivasyuk",
+      "artist": {
+        "id": "AUT-002",
+        "name": "Anastasia Ivasyuk",
+        "bio": "My name is Anastasia Ivasyuk and I’m currently a student, about to go into my senior year of high school.\nI don’t paint often but when I do, I enjoy making realism and impressionism pieces.",
+        "photo": {
+          "id": "1GaW24ONAaur2q0yHwHjlu1nfyNq_-czo",
+          "filename": "Anastasia-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1GaW24ONAaur2q0yHwHjlu1nfyNq_-czo&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1GaW24ONAaur2q0yHwHjlu1nfyNq_-czo",
+          "alt": "Anastasia Ivasyuk"
+        }
+      },
+      "medium": "Acrylic, Watercolor",
+      "mediumFilters": [
+        "Acrylic",
+        "Watercolor"
+      ],
+      "dimensions": {
+        "width": 20,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "20 × 20 in"
+      },
+      "orientation": "square",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "sold",
+      "description": "A honeybee rests against the center of a softly painted flower, its striped body and delicate wings rendered with greater detail than the surrounding bloom. Pale lavender petals spread across a calm blue background, creating a gentle contrast with the bee’s warm gold, brown, and black tones. The enlarged composition turns a familiar spring encounter into an intimate study of pollination, fragility, and seasonal renewal.",
+      "image": {
+        "id": "18z4buhUHmE9OAKlIGhAfer136whrWmdg",
+        "filename": "Spring-Petals.jpg",
+        "url": "https://drive.google.com/thumbnail?id=18z4buhUHmE9OAKlIGhAfer136whrWmdg&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=18z4buhUHmE9OAKlIGhAfer136whrWmdg",
+        "alt": "Spring Petals by Anastasia Ivasyuk"
+      },
+      "checkoutUrl": "",
+      "framed": true
+    },
+    {
+      "id": "ART-005",
+      "stripeProductId": "prod_UpsteyZdAPt54W",
+      "title": "Tree of Life",
+      "artistName": "Paula Pokhodnya",
+      "artist": null,
+      "medium": "Oil on canvas",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 16,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "16 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 250,
+        "currency": "USD",
+        "formatted": "$250"
+      },
+      "status": "available",
+      "description": "A dense canopy of green unfolds across the canvas in layered, energetic brushstrokes. Twisting trunks and branches rise through the composition in warm browns, ochres, violet, and gold, while overlapping leaves create a shifting field of mint, turquoise, emerald, and yellow-green. Rather than describing a single tree literally, the painting captures the sensation of standing beneath living foliage—surrounded by movement, filtered light, and continual growth.",
+      "image": {
+        "id": "1f2_WIW3RJ-WT4SrIkTek6JKFYQ1HZDu2",
+        "filename": "Tree-of-Life.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1f2_WIW3RJ-WT4SrIkTek6JKFYQ1HZDu2&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1f2_WIW3RJ-WT4SrIkTek6JKFYQ1HZDu2",
+        "alt": "Tree of Life by Paula Pokhodnya"
+      },
+      "checkoutUrl": "https://buy.stripe.com/7sY4gydsP5tx7c2bERbZe0d?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-006",
+      "stripeProductId": "prod_UpsqHww1YuTLC8",
+      "title": "Kyiv Sky",
+      "artistName": "Paula Pokhodnya",
+      "artist": null,
+      "medium": "Acrylic",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 9,
+        "height": 12,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "9 × 12 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 150,
+        "currency": "USD",
+        "formatted": "$150"
+      },
+      "status": "available",
+      "description": "A broad summer sky opens above a lush garden landscape, where billowing clouds drift over dense trees, flowering fields, and glimpses of distant architecture. The foreground is alive with reds, pinks, blues, and yellow-greens, while the cooler city forms recede into the distance beneath an expansive blue sky. Painted with loose, expressive brushwork, the scene captures Kyiv as a place where cultivated beauty, urban memory, and nature meet.",
+      "image": {
+        "id": "1rL85rAomTTqrDSKVd5yKr_sPGRgsvoJO",
+        "filename": "Kyiv-Sky.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1rL85rAomTTqrDSKVd5yKr_sPGRgsvoJO&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1rL85rAomTTqrDSKVd5yKr_sPGRgsvoJO",
+        "alt": "Kyiv Sky by Paula Pokhodnya"
+      },
+      "checkoutUrl": "https://buy.stripe.com/14AfZgbkHe031RIbERbZe0c?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-007",
+      "stripeProductId": "prod_Upsm8ZDkH5lRqj",
+      "title": "Hollyhocks",
+      "artistName": "Paula Pokhodnya",
+      "artist": null,
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 16,
+        "height": 12,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "16 × 12 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "available",
+      "description": "A whitewashed cottage sits within a lush garden, framed by dense green foliage and a cluster of vivid hollyhocks near the doorway. Bright blue window frames, weathered rooflines, and scattered garden objects give the scene a lived-in, rural character. Loose, expressive brushwork and saturated color create the feeling of a warm summer day, where architecture and vegetation blend into a lively, intimate landscape.",
+      "image": {
+        "id": "1YKrecse87qD4byNnla1Jq52-aEgtR3mL",
+        "filename": "Hollyhocks.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1YKrecse87qD4byNnla1Jq52-aEgtR3mL&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1YKrecse87qD4byNnla1Jq52-aEgtR3mL",
+        "alt": "Hollyhocks by Paula Pokhodnya"
+      },
+      "checkoutUrl": "https://buy.stripe.com/3cI00iagD5txdAq9wJbZe0b?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-008",
+      "stripeProductId": "prod_UpskGTHZsYvPoy",
+      "title": "Mary and Williams Bridge",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 40,
+        "height": 30,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "40 × 30 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 10000,
+        "currency": "USD",
+        "formatted": "$10,000"
+      },
+      "status": "available",
+      "description": "A graceful arched bridge spans a still pond, framed by dense foliage in shifting greens, golds, and burgundy. Two figures pause at the center, introducing a quiet human presence into the landscape. Below, the bridge and surrounding trees dissolve into a richly colored reflection, doubling the scene and drawing the eye into the water’s depth. The work balances careful observation with expressive color, turning a garden setting into a contemplative study of light, symmetry, and connection.",
+      "image": {
+        "id": "1h7OhG4NgqghVbU8cqUd96iU2_mxFCtHz",
+        "filename": "Mary-and-Williams-Bridge.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1h7OhG4NgqghVbU8cqUd96iU2_mxFCtHz&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1h7OhG4NgqghVbU8cqUd96iU2_mxFCtHz",
+        "alt": "Mary and Williams Bridge by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/28EbJ0gF15tx7c2bERbZe0a?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-009",
+      "stripeProductId": "prod_UpsiCmKHUycH7o",
+      "title": "Fall",
+      "artistName": "Ludmila Yuzhbabenko",
+      "artist": {
+        "id": "AUT-004",
+        "name": "Ludmila Yuzhbabenko",
+        "bio": "Ludmila Yuzhbabenko is an artist whose work celebrates the beauty of everyday life through expressive still lifes and evocative landscapes. \nWorking primarily in oil and acrylic, she combines rich color, light, and texture to create paintings that invite viewers to pause and appreciate ordinary moments. Her subjects – from vibrant fruit compositions to tranquil natural scenes – reflect a deep appreciation for nature, memory, and the quite poetry found in familiar objects.",
+        "photo": {
+          "id": "1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP",
+          "filename": "Ludmila-Uzhbabenko.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP",
+          "alt": "Ludmila Yuzhbabenko"
+        }
+      },
+      "medium": "Acrylic",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 23,
+        "height": 19,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "23 × 19 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 275,
+        "currency": "USD",
+        "formatted": "$275"
+      },
+      "status": "available",
+      "description": "A quiet still life brings together late-season flowers and fruit in a balanced, carefully arranged composition. Deep purple, coral, and rose-colored blooms rise from a transparent glass vase, while grapes, an apple, and a pear rest across the tabletop below. The restrained background and soft modeling keep the focus on color, form, and the gentle abundance of autumn.",
+      "image": {
+        "id": "1ldVUAFMlhKWIQER0tfLEH2M4Yil_zc2z",
+        "filename": "Fall.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1ldVUAFMlhKWIQER0tfLEH2M4Yil_zc2z&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1ldVUAFMlhKWIQER0tfLEH2M4Yil_zc2z",
+        "alt": "Fall by Ludmila Yuzhbabenko"
+      },
+      "checkoutUrl": "https://buy.stripe.com/8x2eVcbkHbRV7c2eR3bZe09?ref=ucchamptonroads.com",
+      "framed": true
+    },
+    {
+      "id": "ART-010",
+      "stripeProductId": "prod_UpsgbLVKYBXbRq",
+      "title": "Taste of Home",
+      "artistName": "Viktoriia Useinova",
+      "artist": null,
+      "medium": "Oil",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 16,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "16 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "available",
+      "description": "A ripe watermelon and bright cut slices share the table with a vase of sunflowers, creating a still life filled with the colors and warmth of late summer. Cool blue-green tones surround the vivid red fruit and soft yellow petals, while scattered leaves and fallen blossoms give the arrangement a relaxed, lived-in quality. The familiar subjects evoke hospitality, harvest, and the simple comfort of food and flowers associated with home.",
+      "image": {
+        "id": "1cGQYe4OiTFDztApHGMGncbdz9rB43Cvf",
+        "filename": "Taste-of-Home.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1cGQYe4OiTFDztApHGMGncbdz9rB43Cvf&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1cGQYe4OiTFDztApHGMGncbdz9rB43Cvf",
+        "alt": "Taste of Home by Viktoriia Useinova"
+      },
+      "checkoutUrl": "https://buy.stripe.com/5kQdR8agDaNR1RIaANbZe08?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-011",
+      "stripeProductId": "prod_UpsdAsanGEI5SM",
+      "title": "Fruits of My Soul",
+      "artistName": "Ludmila Yuzhbabenko",
+      "artist": {
+        "id": "AUT-004",
+        "name": "Ludmila Yuzhbabenko",
+        "bio": "Ludmila Yuzhbabenko is an artist whose work celebrates the beauty of everyday life through expressive still lifes and evocative landscapes. \nWorking primarily in oil and acrylic, she combines rich color, light, and texture to create paintings that invite viewers to pause and appreciate ordinary moments. Her subjects – from vibrant fruit compositions to tranquil natural scenes – reflect a deep appreciation for nature, memory, and the quite poetry found in familiar objects.",
+        "photo": {
+          "id": "1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP",
+          "filename": "Ludmila-Uzhbabenko.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP",
+          "alt": "Ludmila Yuzhbabenko"
+        }
+      },
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 11.5,
+        "height": 23.5,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "11.5 × 23.5 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 500,
+        "currency": "USD",
+        "formatted": "$500"
+      },
+      "status": "available",
+      "description": "This three-panel composition brings pears, persimmons, and apples together as a unified meditation on abundance, growth, and personal memory. Each canvas is built around a distinct color atmosphere—blue, golden yellow, and soft violet—while the repeated branches and leaves create continuity across the set. The fruit is rendered with warmth and clarity, balancing decorative simplicity with careful observation. Presented together, the triptych reads as both a botanical study and a symbolic celebration of nourishment, harvest, and inner life.",
+      "image": {
+        "id": "1XjrPCdcZrr338RSBrlnCVxWRth-Vbzcd",
+        "filename": "Fruits-of-My-Soul.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1XjrPCdcZrr338RSBrlnCVxWRth-Vbzcd&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1XjrPCdcZrr338RSBrlnCVxWRth-Vbzcd",
+        "alt": "Fruits of My Soul by Ludmila Yuzhbabenko"
+      },
+      "checkoutUrl": "https://buy.stripe.com/14AeVc9cz4pt67YgZbbZe07?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-012",
+      "stripeProductId": "prod_UpsaVoExNxsVMr",
+      "title": "Gentle Wave",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil on canvas",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 22,
+        "height": 28,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "22 × 28 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 1200,
+        "currency": "USD",
+        "formatted": "$1,200"
+      },
+      "status": "available",
+      "description": "Soft evening light settles over a restless shoreline as layered turquoise waves move toward the sand. Pale foam spreads across the foreground in delicate, swirling patterns, while lavender, gray, pink, and yellow clouds create a quiet glow above the horizon. The painting balances the sea’s constant motion with a calm, reflective atmosphere, capturing the moment when water, light, and sky seem to merge.",
+      "image": {
+        "id": "1XEwRrEaO-UPKzOmZ1w7Bp-BU2SAoZgkx",
+        "filename": "Gentle-Wave.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1XEwRrEaO-UPKzOmZ1w7Bp-BU2SAoZgkx&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1XEwRrEaO-UPKzOmZ1w7Bp-BU2SAoZgkx",
+        "alt": "Gentle Wave by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/bJebJ04Wj5tx0NEeR3bZe06?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-013",
+      "stripeProductId": "prod_UpsXZeujf8F1OI",
+      "title": "Gray Cloud",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil on canvas",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 24,
+        "height": 18,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "24 × 18 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 500,
+        "currency": "USD",
+        "formatted": "$500"
+      },
+      "status": "available",
+      "description": "A dramatic mountain landscape unfolds beneath a shifting sky, where heavy gray clouds meet bright openings of blue and white. Snow-covered peaks rise beyond a deep blue lake, their ridges built with thick, expressive texture and cool violet tones. Golden grasses along the shoreline bring warmth to the foreground, creating a striking contrast between the quiet water, rugged mountains, and unsettled atmosphere above.",
+      "image": {
+        "id": "13m_JiipM3_yCLdPS6_vTedyICZHZNBP0",
+        "filename": "Gray-Cloud.jpg",
+        "url": "https://drive.google.com/thumbnail?id=13m_JiipM3_yCLdPS6_vTedyICZHZNBP0&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=13m_JiipM3_yCLdPS6_vTedyICZHZNBP0",
+        "alt": "Gray Cloud by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/cNifZg88v9JN0NE4cpbZe05?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-014",
+      "stripeProductId": "prod_UpsQSyTKG1Dcfr",
+      "title": "Bahamas, Small Island.",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 20,
+        "height": 16,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "20 × 16 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "available",
+      "description": "A white sailboat glides across brilliant blue water beneath a wide, cloud-filled sky. Dense tropical greenery frames the foreground, opening toward a narrow path and the luminous shoreline beyond. Rich turquoise, cobalt, and emerald tones give the scene a vivid sense of warmth and escape, while the solitary boat adds a quiet feeling of freedom and distance.",
+      "image": {
+        "id": "1Jf13uQcqtDtL1NaIhkeTjTTjFmbLMDOm",
+        "filename": "Bahamas-Small-Island.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1Jf13uQcqtDtL1NaIhkeTjTTjFmbLMDOm&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1Jf13uQcqtDtL1NaIhkeTjTTjFmbLMDOm",
+        "alt": "Bahamas, Small Island. by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/fZu00iagDe03aoe7oBbZe04?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-015",
+      "stripeProductId": "prod_UpsMpDWVH7FQbm",
+      "title": "Summer Memories of Ukraine",
+      "artistName": "Lillia Mozgova",
+      "artist": null,
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 20,
+        "height": 16,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "20 × 16 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "available",
+      "description": "A cheerful rural scene recalls the warmth of summer in Ukraine. A white cottage stands behind a flower-filled garden, where blooming hollyhocks, fruit trees, bicycles, and a resting cow create a sense of everyday village life. Painted in bright, direct color, the work carries the character of a cherished memory—simple, affectionate, and rooted in home.",
+      "image": {
+        "id": "1SiCyFa6f9ckmnuLFUXMSISjui9wVZVef",
+        "filename": "Summer-Memories-of-Ukraine.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1SiCyFa6f9ckmnuLFUXMSISjui9wVZVef&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1SiCyFa6f9ckmnuLFUXMSISjui9wVZVef",
+        "alt": "Summer Memories of Ukraine by Lillia Mozgova"
+      },
+      "checkoutUrl": "https://buy.stripe.com/14AcN4agD5txfIy9wJbZe03?ref=ucchamptonroads.com",
+      "framed": true
+    },
+    {
+      "id": "ART-016",
+      "stripeProductId": "prod_UpsIWj8Wu2wOXf",
+      "title": "Green Light",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 24,
+        "height": 18,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "24 × 18 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 500,
+        "currency": "USD",
+        "formatted": "$500"
+      },
+      "status": "available",
+      "description": "A lively waterfront scene glows beneath a soft pink-and-blue evening sky. Restaurants and gathering spaces line the pier, their warm interior light spilling toward the water as people fill the decks and walkways. Below, shifting turquoise, green, and deep blue reflections animate the surface, capturing the energy of a coastal destination at dusk.",
+      "image": {
+        "id": "1SLa-F8j5rsmWjC2Jp3E2zgDWlqlyqMho",
+        "filename": "Green-Light.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1SLa-F8j5rsmWjC2Jp3E2zgDWlqlyqMho&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1SLa-F8j5rsmWjC2Jp3E2zgDWlqlyqMho",
+        "alt": "Green Light by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/8x27sK1K72hl9ka4cpbZe02?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-017",
+      "stripeProductId": "prod_Ups5INvcIl33Du",
+      "title": "Freedom",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Colored pencil, Markers",
+      "mediumFilters": [
+        "Pencil"
+      ],
+      "dimensions": {
+        "width": 17,
+        "height": 21,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "17 × 21 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 595,
+        "currency": "USD",
+        "formatted": "$595"
+      },
+      "status": "sold",
+      "description": "A radiant abstract composition expands outward through interlocking organic forms and luminous color. Warm yellows and oranges gather around a dense central core of violet, blue, green, and rose, while fine black lines connect the shapes like a living network. The work suggests release, transformation, and energy in motion, balancing delicacy with a strong sense of emergence and freedom.",
+      "image": {
+        "id": "1movCLjIuEAd0DZtfbQQ_xT6PaQokxSUK",
+        "filename": "Freedom.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1movCLjIuEAd0DZtfbQQ_xT6PaQokxSUK&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1movCLjIuEAd0DZtfbQQ_xT6PaQokxSUK",
+        "alt": "Freedom by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "",
+      "framed": true
+    },
+    {
+      "id": "ART-018",
+      "stripeProductId": "prod_Ups4z78MwF5eOk",
+      "title": "Follow Your Dream",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Colored pencil, Markers",
+      "mediumFilters": [
+        "Pencil"
+      ],
+      "dimensions": {
+        "width": 17,
+        "height": 21,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "17 × 21 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 495,
+        "currency": "USD",
+        "formatted": "$495"
+      },
+      "status": "sold",
+      "description": "Radiating from a concentrated center, this abstract composition unfolds through layered organic forms in gold, amber, violet, rose, and soft white. Bold black contours and finer red lines bind the shapes into a dynamic network, suggesting pathways, choices, and movement toward an unseen destination. The work carries a sense of aspiration and forward motion, inviting the viewer to follow instinct, possibility, and personal vision.",
+      "image": {
+        "id": "1dCuo02YHq_0GSVCyCQ6KgZAHz3GgcJCD",
+        "filename": "Follow-Your-Dream.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1dCuo02YHq_0GSVCyCQ6KgZAHz3GgcJCD&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1dCuo02YHq_0GSVCyCQ6KgZAHz3GgcJCD",
+        "alt": "Follow Your Dream by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "",
+      "framed": true
+    },
+    {
+      "id": "ART-019",
+      "stripeProductId": "prod_Ups33jkJUI9CS8",
+      "title": "Expand Beyond Silence",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Watercolor pencils, Acrylic",
+      "mediumFilters": [
+        "Acrylic",
+        "Watercolor",
+        "Pencil"
+      ],
+      "dimensions": {
+        "width": 21,
+        "height": 17,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "21 × 17 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 550,
+        "currency": "USD",
+        "formatted": "$550"
+      },
+      "status": "available",
+      "description": "A luminous web of pale gold lines expands across a deep charcoal ground, enclosing fluid shapes in violet, indigo, rose, and blue. The composition feels both cellular and cosmic, as if energy were spreading outward from a dense inner core. Balancing darkness with delicate illumination, the work suggests emergence, connection, and the quiet act of moving beyond confinement.",
+      "image": {
+        "id": "1QEXXS_ddxBqRl8WB4o4Xli5Qy1HhsrqX",
+        "filename": "Expand-Beyond-Silence.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1QEXXS_ddxBqRl8WB4o4Xli5Qy1HhsrqX&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1QEXXS_ddxBqRl8WB4o4Xli5Qy1HhsrqX",
+        "alt": "Expand Beyond Silence by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/8x26oGcoLaNRdAq38lbZe0m?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-020",
+      "stripeProductId": "prod_Ups3dQUl0NSJ6n",
+      "title": "Roots of Light",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Colored pencil, Acrylic",
+      "mediumFilters": [
+        "Acrylic",
+        "Pencil"
+      ],
+      "dimensions": {
+        "width": 21,
+        "height": 17,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "21 × 17 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 595,
+        "currency": "USD",
+        "formatted": "$595"
+      },
+      "status": "available",
+      "description": "A tree-like form rises from a dark ground, built from luminous gold lines and interlocking shapes in blue, violet, green, burgundy, and teal. Its branching structure suggests both roots and a living network, linking growth below with expansion above. The work evokes resilience, connection, and the quiet presence of light moving through darkness.",
+      "image": {
+        "id": "1__tr1mFu_yEq2pU6VDFtkKr9_FvAJjIG",
+        "filename": "Roots-of-Light.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1__tr1mFu_yEq2pU6VDFtkKr9_FvAJjIG&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1__tr1mFu_yEq2pU6VDFtkKr9_FvAJjIG",
+        "alt": "Roots of Light by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/28EcN49czbRV53UfV7bZe0l?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-021",
+      "stripeProductId": "prod_Ups2vJG0zylC2Y",
+      "title": "Threads of Heritage",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Colored pencil, Acrylic",
+      "mediumFilters": [
+        "Acrylic",
+        "Pencil"
+      ],
+      "dimensions": {
+        "width": 17,
+        "height": 21,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "17 × 21 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 550,
+        "currency": "USD",
+        "formatted": "$550"
+      },
+      "status": "available",
+      "description": "A vivid red geometric motif, reminiscent of Ukrainian embroidery, anchors the composition against a dark ground. Around it, pale interwoven lines and rounded forms create a layered field that feels organic, protective, and interconnected. The work brings ancestral pattern and contemporary abstraction together, suggesting heritage as something living—carried forward through memory, repetition, and shared identity.",
+      "image": {
+        "id": "1AonkCGCJzwGO-Mao2WIgy7ceiP7QTFD7",
+        "filename": "Threads-of-Heritage.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1AonkCGCJzwGO-Mao2WIgy7ceiP7QTFD7&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1AonkCGCJzwGO-Mao2WIgy7ceiP7QTFD7",
+        "alt": "Threads of Heritage by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/3cI5kC60n2hlaoedMZbZe0k?ref=ucchamptonroads.com",
+      "framed": true
+    },
+    {
+      "id": "ART-022",
+      "stripeProductId": "prod_Uprz3DDHPsK94f",
+      "title": "Rooted in Beauty",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 10,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "10 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 425,
+        "currency": "USD",
+        "formatted": "$425"
+      },
+      "status": "sold",
+      "description": "A vibrant floral tree rises from visible roots, its branches transformed into a symmetrical arrangement of deep red blossoms, blue wildflowers, bright berries, and richly patterned green leaves. Drawing on the decorative spirit of Ukrainian folk painting, the composition celebrates beauty as something sustained by heritage, nature, and strong foundations.",
+      "image": {
+        "id": "1qqGQ4sKOoFIwDXnBQJCQZFqqbZkFY3nx",
+        "filename": "Rooted-in-Beauty.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1qqGQ4sKOoFIwDXnBQJCQZFqqbZkFY3nx&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1qqGQ4sKOoFIwDXnBQJCQZFqqbZkFY3nx",
+        "alt": "Rooted in Beauty by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "",
+      "framed": false
+    },
+    {
+      "id": "ART-023",
+      "stripeProductId": "prod_UprveiYNrEhMGT",
+      "title": "Garden of Blessings",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 10,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "10 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 895,
+        "currency": "USD",
+        "formatted": "$895"
+      },
+      "status": "sold",
+      "description": "A paired celebration of Ukrainian folk art, these two panels mirror one another through abundant floral arrangements, stylized birds, fruit, berries, and decorative foliage. Vivid oranges, yellows, blues, greens, and purples create a joyful sense of harvest and prosperity, while the balanced compositions suggest harmony, generosity, and shared blessing. Presented together, the works read as a unified tribute to cultural tradition, beauty, and abundance.",
+      "image": {
+        "id": "1j7Frls2jKd5lmsF9etTvarqAjm-hExbu",
+        "filename": "Garden-of-Blessings.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1j7Frls2jKd5lmsF9etTvarqAjm-hExbu&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1j7Frls2jKd5lmsF9etTvarqAjm-hExbu",
+        "alt": "Garden of Blessings by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "",
+      "framed": false
+    },
+    {
+      "id": "ART-024",
+      "stripeProductId": "prod_UprvITDEZxAkLb",
+      "title": "Poppies",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Acrylic",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 16,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "16 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 300,
+        "currency": "USD",
+        "formatted": "$300"
+      },
+      "status": "available",
+      "description": "A vivid field of poppies rises through layers of red, coral, pink, blue, and green. Thick, expressive brushwork gives the blossoms a sculptural presence, while slender stems and unopened buds create rhythm across the composition. The painting captures the abundance and movement of a summer meadow, balancing bold color with a sense of natural spontaneity.",
+      "image": {
+        "id": "1T5MVlTIuTr6gZovNSlXfhduOqoJ-c-RY",
+        "filename": "Poppies.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1T5MVlTIuTr6gZovNSlXfhduOqoJ-c-RY&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1T5MVlTIuTr6gZovNSlXfhduOqoJ-c-RY",
+        "alt": "Poppies by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/cNibJ0bkH5tx2VM10dbZe0h?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-025",
+      "stripeProductId": "prod_UprtIZaM6UmRV8",
+      "title": "Tree of Life, Petrykivka",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Acrylic on paper",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 29,
+        "height": 21,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "29 × 21 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 575,
+        "currency": "USD",
+        "formatted": "$575"
+      },
+      "status": "available",
+      "description": "A richly symmetrical tree of life unfolds through vibrant flowers, birds, berries, and flowing foliage. Rooted in the Ukrainian Petrykivka decorative tradition, the composition balances vivid reds, golds, greens, and blues with graceful ornamental rhythm. The image celebrates continuity, harmony, and cultural memory, presenting nature as both a source of beauty and a symbol of enduring life.",
+      "image": {
+        "id": "1KMOb5QYI19ybkYFsVbExbq8g5LmGwPlF",
+        "filename": "Tree-of-Life-Petrykivka.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1KMOb5QYI19ybkYFsVbExbq8g5LmGwPlF&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1KMOb5QYI19ybkYFsVbExbq8g5LmGwPlF",
+        "alt": "Tree of Life, Petrykivka by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/5kQbJ0fAX2hl9ka8sFbZe0g?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-026",
+      "stripeProductId": "prod_UprnfeD6QakI61",
+      "title": "The Heart of Summer",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 10,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "10 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 425,
+        "currency": "USD",
+        "formatted": "$425"
+      },
+      "status": "sold",
+      "description": "A joyful floral composition rises from strong roots, crowned by a radiant central blossom and surrounded by berries, leaves, and smaller flowers. Rich reds, purples, greens, oranges, and blues create a lively ornamental rhythm, while a small ladybug near the base adds a playful detail. Rooted in the Ukrainian Petrykivka tradition, the work celebrates warmth, growth, and the abundance of summer.",
+      "image": {
+        "id": "1i8arpehoWRx6VBPXMmv5RdWaOWptNLbo",
+        "filename": "The-Heart-of-Summer.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1i8arpehoWRx6VBPXMmv5RdWaOWptNLbo&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1i8arpehoWRx6VBPXMmv5RdWaOWptNLbo",
+        "alt": "The Heart of Summer by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "",
+      "framed": false
+    },
+    {
+      "id": "ART-027",
+      "stripeProductId": "",
+      "title": "I Love You Forever, Mom",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 20,
+        "height": 24,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "20 × 24 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": null,
+        "currency": "USD",
+        "formatted": ""
+      },
+      "status": "not_for_sale",
+      "description": "A warm double portrait captures the closeness between a mother and daughter. Seated side by side with an arm resting gently across the chair, the two figures share open smiles and a quiet sense of affection. Rich teal and blue tones unify the composition, while expressive brushwork gives the portrait warmth, immediacy, and the feeling of a cherished family memory.",
+      "image": {
+        "id": "1sjyQHqAHvzlyNWknggeAMhpx5BcM8HZf",
+        "filename": "I-Love-You-Forever-Mom.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1sjyQHqAHvzlyNWknggeAMhpx5BcM8HZf&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1sjyQHqAHvzlyNWknggeAMhpx5BcM8HZf",
+        "alt": "I Love You Forever, Mom by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "",
+      "framed": false
+    },
+    {
+      "id": "ART-028",
+      "stripeProductId": "prod_V1H6zxiQVsSXAo",
+      "title": "Pink Spring",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 20,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "20 × 20 in"
+      },
+      "orientation": "square",
+      "price": {
+        "amount": 400,
+        "currency": "USD",
+        "formatted": "$400"
+      },
+      "status": "available",
+      "description": "A mature flowering tree fills the composition with an exuberant canopy of pink, rose, and violet blossoms. Dark, twisting branches anchor the scene while sunlight filters through fresh green foliage and scatters across the blossom-covered ground in bands of lavender, blue, and gold. The painting captures spring at its fullest, balancing the strength of the old tree with the fleeting beauty of renewal.",
+      "image": {
+        "id": "1y9j-djom1wO7anuddAJP2ri2ye4MJh5z",
+        "filename": "Pink-Spring.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1y9j-djom1wO7anuddAJP2ri2ye4MJh5z&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1y9j-djom1wO7anuddAJP2ri2ye4MJh5z",
+        "alt": "Pink Spring by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/fZucN4fAX09dfIybERbZe0r?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-029",
+      "stripeProductId": "prod_V1HErh6vBOyvSL",
+      "title": "Bahamas. Princess Cays Beach",
+      "artistName": "Nataliia Sytnyk",
+      "artist": null,
+      "medium": "Oil",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 16,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "16 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 300,
+        "currency": "USD",
+        "formatted": "$300"
+      },
+      "status": "available",
+      "description": "A sunlit Caribbean shoreline opens beneath an expansive blue sky, where bright clouds drift above bands of turquoise water. A small red-roofed pavilion anchors the rocky point while swimmers gather in the shallows and a cruise ship passes along the distant horizon. The scene captures the relaxed energy of Princess Cays, balancing vivid tropical color with the calm rhythm of sea, sand, and sky.",
+      "image": {
+        "id": "1WrzWmhQyIuuXVHfvB860NzxKUqR9LJmF",
+        "filename": "Bahamas-Princess-Cays-Beach.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1WrzWmhQyIuuXVHfvB860NzxKUqR9LJmF&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1WrzWmhQyIuuXVHfvB860NzxKUqR9LJmF",
+        "alt": "Bahamas. Princess Cays Beach by Nataliia Sytnyk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/cNi3cuewT5txdAqeR3bZe0s?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-030",
+      "stripeProductId": "prod_V1HTAGAbljs6Tm",
+      "title": "Apple Tree",
+      "artistName": "Margarita Pendiur",
+      "artist": {
+        "id": "AUT-003",
+        "name": "Margarita Pendiur",
+        "bio": "Born in Kyiv, Ukraine, in 2002, I began my artistic journey at an early age. I graduated from an art school, where I received my first formal education in art. I was incredibly fortunate to learn from wonderful and inspiring teachers who had a profound influence on my artistic development. In 2022, I graduated from the Kyiv Academy of Arts, where I received a Bachelor’s degree in the field of Fine Arts, Decorative Art and Restoration, under the educational program Free Graphics, Design and Illustration of the Book. My professional qualification is Graphic Artist and Teacher.\n\nThroughout my artistic journey, I have participated in more than 100 art competitions and exhibitions. Due to Russia’s full-scale invasion of Ukraine, I was forced to temporarily relocate to the United States.\n\nI currently focus mainly on oil painting, particularly in the landscape genre, while watercolor remains especially close to my heart. I enjoy experimenting with different techniques and artistic media.\n\nMost of my paintings are inspired by nature — places that have left a lasting impression on me and deeply touched my soul. I believe that freedom and creativity are inseparable. In moments of silence, when I let go of accumulated knowledge and expectations, inspiration comes naturally, allowing something new and authentic to emerge.",
+        "photo": {
+          "id": "1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "filename": "Margarita-Pendiur.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "alt": "Margarita Pendiur"
+        }
+      },
+      "medium": "Oil on canvas",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 16,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "16 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 1500,
+        "currency": "USD",
+        "formatted": "$1,500"
+      },
+      "status": "available",
+      "description": "A tangle of bare branches fills the composition, punctuated by dozens of bright yellow apples that glow against a cool blue-gray sky. The dense network of limbs creates an intricate, almost rhythmic pattern, while the remaining fruit brings warmth and vitality to the late-season landscape. The work captures a quiet moment of endurance, abundance, and beauty after the leaves have fallen.",
+      "image": {
+        "id": "1fx8Dc7z431jIzRlEmhivy1irz5YzP-xX",
+        "filename": "Apple-Tree.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1fx8Dc7z431jIzRlEmhivy1irz5YzP-xX&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1fx8Dc7z431jIzRlEmhivy1irz5YzP-xX",
+        "alt": "Apple Tree by Margarita Pendiur"
+      },
+      "checkoutUrl": "https://buy.stripe.com/6oUcN4dsPcVZfIydMZbZe0t?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-031",
+      "stripeProductId": "prod_V1HYurJ99BFZuH",
+      "title": "Pumpkins",
+      "artistName": "Margarita Pendiur",
+      "artist": {
+        "id": "AUT-003",
+        "name": "Margarita Pendiur",
+        "bio": "Born in Kyiv, Ukraine, in 2002, I began my artistic journey at an early age. I graduated from an art school, where I received my first formal education in art. I was incredibly fortunate to learn from wonderful and inspiring teachers who had a profound influence on my artistic development. In 2022, I graduated from the Kyiv Academy of Arts, where I received a Bachelor’s degree in the field of Fine Arts, Decorative Art and Restoration, under the educational program Free Graphics, Design and Illustration of the Book. My professional qualification is Graphic Artist and Teacher.\n\nThroughout my artistic journey, I have participated in more than 100 art competitions and exhibitions. Due to Russia’s full-scale invasion of Ukraine, I was forced to temporarily relocate to the United States.\n\nI currently focus mainly on oil painting, particularly in the landscape genre, while watercolor remains especially close to my heart. I enjoy experimenting with different techniques and artistic media.\n\nMost of my paintings are inspired by nature — places that have left a lasting impression on me and deeply touched my soul. I believe that freedom and creativity are inseparable. In moments of silence, when I let go of accumulated knowledge and expectations, inspiration comes naturally, allowing something new and authentic to emerge.",
+        "photo": {
+          "id": "1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "filename": "Margarita-Pendiur.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "alt": "Margarita Pendiur"
+        }
+      },
+      "medium": "Oil on canvas",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 24,
+        "height": 18,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "24 × 18 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 2000,
+        "currency": "USD",
+        "formatted": "$2,000"
+      },
+      "status": "available",
+      "description": "A dramatic still life of pumpkins emerges from a deep, shadowed setting. Warm gold, orange, and pale cream forms are gathered inside a delicate mesh bag, while two cut pieces reveal richly colored interiors in the foreground. Strong contrasts of light and dark give the arrangement a quiet theatrical presence, transforming familiar harvest objects into a study of texture, weight, and autumn abundance.",
+      "image": {
+        "id": "1vzG51WKbCAcD0sbUBW9evgE1Sb4qHh6A",
+        "filename": "Pumpkins.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1vzG51WKbCAcD0sbUBW9evgE1Sb4qHh6A&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1vzG51WKbCAcD0sbUBW9evgE1Sb4qHh6A",
+        "alt": "Pumpkins by Margarita Pendiur"
+      },
+      "checkoutUrl": "https://buy.stripe.com/bJecN40G34pt2VM4cpbZe0u?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-032",
+      "stripeProductId": "prod_V1Hc1abYD0mPij",
+      "title": "Time",
+      "artistName": "Margarita Pendiur",
+      "artist": {
+        "id": "AUT-003",
+        "name": "Margarita Pendiur",
+        "bio": "Born in Kyiv, Ukraine, in 2002, I began my artistic journey at an early age. I graduated from an art school, where I received my first formal education in art. I was incredibly fortunate to learn from wonderful and inspiring teachers who had a profound influence on my artistic development. In 2022, I graduated from the Kyiv Academy of Arts, where I received a Bachelor’s degree in the field of Fine Arts, Decorative Art and Restoration, under the educational program Free Graphics, Design and Illustration of the Book. My professional qualification is Graphic Artist and Teacher.\n\nThroughout my artistic journey, I have participated in more than 100 art competitions and exhibitions. Due to Russia’s full-scale invasion of Ukraine, I was forced to temporarily relocate to the United States.\n\nI currently focus mainly on oil painting, particularly in the landscape genre, while watercolor remains especially close to my heart. I enjoy experimenting with different techniques and artistic media.\n\nMost of my paintings are inspired by nature — places that have left a lasting impression on me and deeply touched my soul. I believe that freedom and creativity are inseparable. In moments of silence, when I let go of accumulated knowledge and expectations, inspiration comes naturally, allowing something new and authentic to emerge.",
+        "photo": {
+          "id": "1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "filename": "Margarita-Pendiur.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "alt": "Margarita Pendiur"
+        }
+      },
+      "medium": "Marker on paper",
+      "mediumFilters": [
+        "Marker on paper"
+      ],
+      "dimensions": {
+        "width": 9,
+        "height": 12,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "9 × 12 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 600,
+        "currency": "USD",
+        "formatted": "$600"
+      },
+      "status": "available",
+      "description": "A finely detailed black-and-white landscape reflects on the passage of time through an overgrown rural corner. Dense vines and foliage spill across a leaning fence, nearly overtaking the weathered structure and house behind it. The intricate linework turns gradual decay into something quietly beautiful, suggesting memory, endurance, and nature’s patient reclamation of what people leave behind.",
+      "image": {
+        "id": "1avnNxOkpjLgr6Hv-NcnwKzgszcv6-u6X",
+        "filename": "Time.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1avnNxOkpjLgr6Hv-NcnwKzgszcv6-u6X&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1avnNxOkpjLgr6Hv-NcnwKzgszcv6-u6X",
+        "alt": "Time by Margarita Pendiur"
+      },
+      "checkoutUrl": "https://buy.stripe.com/aFa4gy88v7BFcwm8sFbZe0v?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-033",
+      "stripeProductId": "prod_V1HiieuwimP4zg",
+      "title": "Silence",
+      "artistName": "Margarita Pendiur",
+      "artist": {
+        "id": "AUT-003",
+        "name": "Margarita Pendiur",
+        "bio": "Born in Kyiv, Ukraine, in 2002, I began my artistic journey at an early age. I graduated from an art school, where I received my first formal education in art. I was incredibly fortunate to learn from wonderful and inspiring teachers who had a profound influence on my artistic development. In 2022, I graduated from the Kyiv Academy of Arts, where I received a Bachelor’s degree in the field of Fine Arts, Decorative Art and Restoration, under the educational program Free Graphics, Design and Illustration of the Book. My professional qualification is Graphic Artist and Teacher.\n\nThroughout my artistic journey, I have participated in more than 100 art competitions and exhibitions. Due to Russia’s full-scale invasion of Ukraine, I was forced to temporarily relocate to the United States.\n\nI currently focus mainly on oil painting, particularly in the landscape genre, while watercolor remains especially close to my heart. I enjoy experimenting with different techniques and artistic media.\n\nMost of my paintings are inspired by nature — places that have left a lasting impression on me and deeply touched my soul. I believe that freedom and creativity are inseparable. In moments of silence, when I let go of accumulated knowledge and expectations, inspiration comes naturally, allowing something new and authentic to emerge.",
+        "photo": {
+          "id": "1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "filename": "Margarita-Pendiur.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "alt": "Margarita Pendiur"
+        }
+      },
+      "medium": "Oil on canvas",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 8,
+        "height": 10,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "8 × 10 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 700,
+        "currency": "USD",
+        "formatted": "$700"
+      },
+      "status": "available",
+      "description": "A quiet woodland interior unfolds through tall, closely spaced trees, their trunks catching scattered touches of warm light. Cool greens, grays, and muted violets create a hushed atmosphere, while exposed roots and fallen branches draw the eye deeper into the forest. The painting captures the stillness of a secluded place, where light moves softly through the trees and silence becomes almost tangible.",
+      "image": {
+        "id": "1IipykXZMUrH9hr2PikY19nr22Pog8rV6",
+        "filename": "Silence.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1IipykXZMUrH9hr2PikY19nr22Pog8rV6&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1IipykXZMUrH9hr2PikY19nr22Pog8rV6",
+        "alt": "Silence by Margarita Pendiur"
+      },
+      "checkoutUrl": "https://buy.stripe.com/7sY3cu60ne038g6aANbZe0w?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-034",
+      "stripeProductId": "prod_V1HnqQD89MeSfr",
+      "title": "The Unconquered",
+      "artistName": "Margarita Pendiur",
+      "artist": {
+        "id": "AUT-003",
+        "name": "Margarita Pendiur",
+        "bio": "Born in Kyiv, Ukraine, in 2002, I began my artistic journey at an early age. I graduated from an art school, where I received my first formal education in art. I was incredibly fortunate to learn from wonderful and inspiring teachers who had a profound influence on my artistic development. In 2022, I graduated from the Kyiv Academy of Arts, where I received a Bachelor’s degree in the field of Fine Arts, Decorative Art and Restoration, under the educational program Free Graphics, Design and Illustration of the Book. My professional qualification is Graphic Artist and Teacher.\n\nThroughout my artistic journey, I have participated in more than 100 art competitions and exhibitions. Due to Russia’s full-scale invasion of Ukraine, I was forced to temporarily relocate to the United States.\n\nI currently focus mainly on oil painting, particularly in the landscape genre, while watercolor remains especially close to my heart. I enjoy experimenting with different techniques and artistic media.\n\nMost of my paintings are inspired by nature — places that have left a lasting impression on me and deeply touched my soul. I believe that freedom and creativity are inseparable. In moments of silence, when I let go of accumulated knowledge and expectations, inspiration comes naturally, allowing something new and authentic to emerge.",
+        "photo": {
+          "id": "1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "filename": "Margarita-Pendiur.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+          "alt": "Margarita Pendiur"
+        }
+      },
+      "medium": "Oil on canvas",
+      "mediumFilters": [
+        "Oil"
+      ],
+      "dimensions": {
+        "width": 16,
+        "height": 20,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "16 × 20 in"
+      },
+      "orientation": "portrait",
+      "price": {
+        "amount": 500,
+        "currency": "USD",
+        "formatted": "$500"
+      },
+      "status": "available",
+      "description": "A proud white rooster stands amid dense, weathered vegetation, its bright red comb cutting sharply through the muted greens and grays. Alert and steady, the bird becomes a symbol of resilience and defiance—rooted in its surroundings, unbowed, and unmistakably alive.",
+      "image": {
+        "id": "1JWa7PAI24cQGgTw8uhH-WCTD-nqphaiP",
+        "filename": "The-Unconquered.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1JWa7PAI24cQGgTw8uhH-WCTD-nqphaiP&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1JWa7PAI24cQGgTw8uhH-WCTD-nqphaiP",
+        "alt": "The Unconquered by Margarita Pendiur"
+      },
+      "checkoutUrl": "https://buy.stripe.com/9B6cN4fAX2hlcwm8sFbZe0x?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-035",
+      "stripeProductId": "prod_V1HqovTiciFA6i",
+      "title": "Sunflower Morning",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 10,
+        "height": 10,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "10 × 10 in"
+      },
+      "orientation": "square",
+      "price": {
+        "amount": 300,
+        "currency": "USD",
+        "formatted": "$300"
+      },
+      "status": "available",
+      "description": "Bright sunflowers form the heart of this cheerful folk-inspired composition, surrounded by delicate blue blossoms, red berries, and richly patterned green leaves. Warm gold and orange tones create a sense of early light and optimism, while the balanced decorative arrangement celebrates abundance, renewal, and the simple joy of a new morning.",
+      "image": {
+        "id": "1qThFnkr3TXKgD8203OInnqhE5tzON5Dw",
+        "filename": "Sunflower-Morning.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1qThFnkr3TXKgD8203OInnqhE5tzON5Dw&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1qThFnkr3TXKgD8203OInnqhE5tzON5Dw",
+        "alt": "Sunflower Morning by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/eVq28qfAXaNR3ZQ24hbZe0y?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-036",
+      "stripeProductId": "prod_V1Htcujrch5Er2",
+      "title": "Cornflower Breeze",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Acrylic on canvas",
+      "mediumFilters": [
+        "Acrylic"
+      ],
+      "dimensions": {
+        "width": 10,
+        "height": 10,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "10 × 10 in"
+      },
+      "orientation": "square",
+      "price": {
+        "amount": 300,
+        "currency": "USD",
+        "formatted": "$300"
+      },
+      "status": "available",
+      "description": "A lively arrangement of blue cornflowers fills the composition, surrounded by orange blossoms, red berries, and curling green foliage. The bold floral forms and rhythmic decorative details create a sense of movement, as though the flowers are stirred by a passing summer breeze. Bright, balanced, and joyful, the work celebrates the color and energy of a flourishing garden.",
+      "image": {
+        "id": "1sKzXNsxua0KmcIKeQXoAqb41dBfAAHWH",
+        "filename": "Cornflower-Breeze.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1sKzXNsxua0KmcIKeQXoAqb41dBfAAHWH&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1sKzXNsxua0KmcIKeQXoAqb41dBfAAHWH",
+        "alt": "Cornflower Breeze by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/dRm28q60naNRdAqfV7bZe0z?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-037",
+      "stripeProductId": "prod_V1HzxsD8UPZzCi",
+      "title": "Morning Veil",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Watercolor",
+      "mediumFilters": [
+        "Watercolor"
+      ],
+      "dimensions": {
+        "width": 11,
+        "height": 9,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "11 × 9 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 150,
+        "currency": "USD",
+        "formatted": "$150"
+      },
+      "status": "available",
+      "description": "A misty lakeside landscape emerges through soft layers of blue, gray, and violet. Trees along the distant shore dissolve into the haze while a small group of birds crosses the quiet sky. Delicate washes and subdued color create the feeling of an early morning suspended between darkness and light.",
+      "image": {
+        "id": "1MEgYcqfPnnwuDv3XffSFJZcaZ7HOvQUf",
+        "filename": "Morning-Veil.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1MEgYcqfPnnwuDv3XffSFJZcaZ7HOvQUf&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1MEgYcqfPnnwuDv3XffSFJZcaZ7HOvQUf",
+        "alt": "Morning Veil by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/5kQ8wOgF13lp67YdMZbZe0A?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-038",
+      "stripeProductId": "prod_V1I0FLxBjQRwGX",
+      "title": "Soaring Eagle",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Watercolor",
+      "mediumFilters": [
+        "Watercolor"
+      ],
+      "dimensions": {
+        "width": 11,
+        "height": 9,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "11 × 9 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 150,
+        "currency": "USD",
+        "formatted": "$150"
+      },
+      "status": "available",
+      "description": "Layered hills, distant water, and dark evergreens unfold beneath a pale, expansive sky. Muted lavender, rose, and earth tones give the landscape a quiet, atmospheric depth, while a small bird above the valley introduces a sense of freedom and open distance.",
+      "image": {
+        "id": "1W-UBP9mxxzBSLorVnLuFolBqLDb6sGeQ",
+        "filename": "Soaring-Eagle.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1W-UBP9mxxzBSLorVnLuFolBqLDb6sGeQ&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1W-UBP9mxxzBSLorVnLuFolBqLDb6sGeQ",
+        "alt": "Soaring Eagle by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/bJe3cu60n8FJbsigZbbZe0B?ref=ucchamptonroads.com",
+      "framed": false
+    },
+    {
+      "id": "ART-039",
+      "stripeProductId": "prod_V1I1jme1zL56jr",
+      "title": "Lake at the Twilight",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Watercolor",
+      "mediumFilters": [
+        "Watercolor"
+      ],
+      "dimensions": {
+        "width": 13,
+        "height": 11,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "13 × 11 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 200,
+        "currency": "USD",
+        "formatted": "$200"
+      },
+      "status": "available",
+      "description": "A solitary bare tree rises over a broad, reflective landscape at twilight. Deep burgundy, violet, blue, and ochre washes move across the water and distant land beneath a darkening sky. Stark branches and a lone bird heighten the scene’s sense of stillness, transition, and solitude.",
+      "image": {
+        "id": "16ao7lHU7MS3p23z0TJmZ5IAQgVj4go3O",
+        "filename": "Lake-at-the-Twilight.jpg",
+        "url": "https://drive.google.com/thumbnail?id=16ao7lHU7MS3p23z0TJmZ5IAQgVj4go3O&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=16ao7lHU7MS3p23z0TJmZ5IAQgVj4go3O",
+        "alt": "Lake at the Twilight by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/28E7sK74r9JNcwmaANbZe0C?ref=ucchamptonroads.com",
+      "framed": false
+    }
+  ],
+  "authors": [
+    {
+      "id": "AUT-001",
+      "name": "Svitlana Ivasyuk",
+      "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+      "photo": {
+        "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+        "filename": "Svitlana-Ivasyuk.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+        "alt": "Svitlana Ivasyuk"
+      }
+    },
+    {
+      "id": "AUT-002",
+      "name": "Anastasia Ivasyuk",
+      "bio": "My name is Anastasia Ivasyuk and I’m currently a student, about to go into my senior year of high school.\nI don’t paint often but when I do, I enjoy making realism and impressionism pieces.",
+      "photo": {
+        "id": "1GaW24ONAaur2q0yHwHjlu1nfyNq_-czo",
+        "filename": "Anastasia-Ivasyuk.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1GaW24ONAaur2q0yHwHjlu1nfyNq_-czo&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1GaW24ONAaur2q0yHwHjlu1nfyNq_-czo",
+        "alt": "Anastasia Ivasyuk"
+      }
+    },
+    {
+      "id": "AUT-003",
+      "name": "Margarita Pendiur",
+      "bio": "Born in Kyiv, Ukraine, in 2002, I began my artistic journey at an early age. I graduated from an art school, where I received my first formal education in art. I was incredibly fortunate to learn from wonderful and inspiring teachers who had a profound influence on my artistic development. In 2022, I graduated from the Kyiv Academy of Arts, where I received a Bachelor’s degree in the field of Fine Arts, Decorative Art and Restoration, under the educational program Free Graphics, Design and Illustration of the Book. My professional qualification is Graphic Artist and Teacher.\n\nThroughout my artistic journey, I have participated in more than 100 art competitions and exhibitions. Due to Russia’s full-scale invasion of Ukraine, I was forced to temporarily relocate to the United States.\n\nI currently focus mainly on oil painting, particularly in the landscape genre, while watercolor remains especially close to my heart. I enjoy experimenting with different techniques and artistic media.\n\nMost of my paintings are inspired by nature — places that have left a lasting impression on me and deeply touched my soul. I believe that freedom and creativity are inseparable. In moments of silence, when I let go of accumulated knowledge and expectations, inspiration comes naturally, allowing something new and authentic to emerge.",
+      "photo": {
+        "id": "1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+        "filename": "Margarita-Pendiur.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1s-OA_konealxNJkcU83oN67bQ6nJG6ra",
+        "alt": "Margarita Pendiur"
+      }
+    },
+    {
+      "id": "AUT-004",
+      "name": "Ludmila Yuzhbabenko",
+      "bio": "Ludmila Yuzhbabenko is an artist whose work celebrates the beauty of everyday life through expressive still lifes and evocative landscapes. \nWorking primarily in oil and acrylic, she combines rich color, light, and texture to create paintings that invite viewers to pause and appreciate ordinary moments. Her subjects – from vibrant fruit compositions to tranquil natural scenes – reflect a deep appreciation for nature, memory, and the quite poetry found in familiar objects.",
+      "photo": {
+        "id": "1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP",
+        "filename": "Ludmila-Uzhbabenko.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1Md3PUrZN7OSsJJqzW_GGdaiVJqvz0IDP",
+        "alt": "Ludmila Yuzhbabenko"
+      }
+    },
+    {
+      "id": "AUT-005",
+      "name": "Oksana Rubio",
+      "bio": "Oksana Rubio is originally from Ukraine and teaches art at the Tidewater Ukrainian School in Virginia Beach. She enjoys working in the mediums of wood, paint, bas-relief, and textiles. Using her many talents, Oksana specializes in breathing fresh life into her art and furniture. Oksana is able to source unique items for Ancestral Energy through her many connections of friends and family around the globe. She currently lives in Suffolk with her husband and step-daughter, and enjoys playing the drums.",
+      "photo": {
+        "id": "1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl",
+        "filename": "Oksana-Rubio.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl",
+        "alt": "Oksana Rubio"
+      }
+    }
+  ],
+  "warnings": []
+}
