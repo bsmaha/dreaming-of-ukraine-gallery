@@ -1,4 +1,4 @@
-# Dreaming of Ukraine Gallery Data
+# Dreaming of Ukraine Gallery Data 
 
 Public JSON feed for the Dreaming of Ukraine Ghost gallery.
 
