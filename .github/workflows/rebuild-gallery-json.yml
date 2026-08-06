@@ -1,0 +1,38 @@
+name: Rebuild gallery JSON
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate gallery-data.json
+        env:
+          DRIVE_API_KEY: ${{ secrets.DRIVE_API_KEY }}
+        run: python scripts/generate_gallery.py
+
+      - name: Commit updated JSON
+        run: |
+          if git diff --quiet -- gallery-data.json; then
+            echo "gallery-data.json is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gallery-data.json
+          git commit -m "Update gallery data"
+          git push
