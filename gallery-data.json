@@ -1,12 +1,12 @@
 {
   "ok": true,
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T03:07:54.973506+00:00",
+  "generatedAt": "2026-08-06T14:35:32.954917+00:00",
   "exhibition": {
     "title": "Dreaming of Ukraine"
   },
   "counts": {
-    "artworks": 39,
+    "artworks": 40,
     "authors": 5,
     "warnings": 0
   },
@@ -767,7 +767,7 @@
         "alt": "Expand Beyond Silence by Svitlana Ivasyuk"
       },
       "checkoutUrl": "https://buy.stripe.com/8x26oGcoLaNRdAq38lbZe0m?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-020",
@@ -814,7 +814,7 @@
         "alt": "Roots of Light by Svitlana Ivasyuk"
       },
       "checkoutUrl": "https://buy.stripe.com/28EcN49czbRV53UfV7bZe0l?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-021",
@@ -1231,7 +1231,7 @@
         "alt": "Apple Tree by Margarita Pendiur"
       },
       "checkoutUrl": "https://buy.stripe.com/6oUcN4dsPcVZfIydMZbZe0t?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-031",
@@ -1277,7 +1277,7 @@
         "alt": "Pumpkins by Margarita Pendiur"
       },
       "checkoutUrl": "https://buy.stripe.com/bJecN40G34pt2VM4cpbZe0u?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-032",
@@ -1323,7 +1323,7 @@
         "alt": "Time by Margarita Pendiur"
       },
       "checkoutUrl": "https://buy.stripe.com/aFa4gy88v7BFcwm8sFbZe0v?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-033",
@@ -1369,7 +1369,7 @@
         "alt": "Silence by Margarita Pendiur"
       },
       "checkoutUrl": "https://buy.stripe.com/7sY3cu60ne038g6aANbZe0w?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-034",
@@ -1415,7 +1415,7 @@
         "alt": "The Unconquered by Margarita Pendiur"
       },
       "checkoutUrl": "https://buy.stripe.com/9B6cN4fAX2hlcwm8sFbZe0x?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-035",
@@ -1553,7 +1553,7 @@
         "alt": "Morning Veil by Svitlana Ivasyuk"
       },
       "checkoutUrl": "https://buy.stripe.com/5kQ8wOgF13lp67YdMZbZe0A?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-038",
@@ -1599,7 +1599,7 @@
         "alt": "Soaring Eagle by Svitlana Ivasyuk"
       },
       "checkoutUrl": "https://buy.stripe.com/bJe3cu60n8FJbsigZbbZe0B?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-039",
@@ -1645,7 +1645,53 @@
         "alt": "Lake at the Twilight by Svitlana Ivasyuk"
       },
       "checkoutUrl": "https://buy.stripe.com/28E7sK74r9JNcwmaANbZe0C?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
+    },
+    {
+      "id": "ART-040",
+      "stripeProductId": "prod_V1VOM4VnSbFyo4",
+      "title": "Cold Spring",
+      "artistName": "Svitlana Ivasyuk",
+      "artist": {
+        "id": "AUT-001",
+        "name": "Svitlana Ivasyuk",
+        "bio": "Svitlana Ivasyuk (1974 -) is a Ukrainian American artist who lives and creates in Virginia Beach, Virginia. She was born and raised in Ukraine where rich national culture, methodology, and creativity were to shape and deeply influence her desire to create and bring beauty into everyday life, to develop and evolve as an artist, to be open and compassionate.\nWhile having a formal education as a mathematician Svitlana is a self-taught artist. She creates in different styles including traditional Ukrainian decorative art of Petrykivka, watercolor, motanka doll making, macrame, beadwork, and neuro-art.\nHer artworks have been exhibited at Las Laguna Art Gallery in California, Ukrainian American Archives and Museum in Michigan, San Diego Watercolor Society, and are owned by private art collectors all over the US and overseas as well. Recently her watercolor painting earned an Honorable Mention Award at SDWS.\nSvitlana’s jewelry styles are very diverse. They are affected by history, by nature, and are deeply rooted in reflecting the inner world.  She loves to combine natural gemstones with modern beads from all over the world to create not only the visually beautiful piece but also a highly spiritual one that will connect with the essence of the owner.\nSvitlana enjoys teaching others the magic of art, she conducts numerous workshops and private lessons in various painting styles and jewelry making.",
+        "photo": {
+          "id": "1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "filename": "Svitlana-Ivasyuk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1BK4DotNoDZAz_MRxlIdYTjPeIs33xua_",
+          "alt": "Svitlana Ivasyuk"
+        }
+      },
+      "medium": "Watercolor",
+      "mediumFilters": [
+        "Watercolor"
+      ],
+      "dimensions": {
+        "width": 12,
+        "height": 10,
+        "unit": "Inches",
+        "panelCount": 1,
+        "label": "12 × 10 in"
+      },
+      "orientation": "landscape",
+      "price": {
+        "amount": 20,
+        "currency": "USD",
+        "formatted": "$20"
+      },
+      "status": "available",
+      "description": "A cool, mist-filled landscape unfolds across a rugged hillside, where dark, windswept trees punctuate the pale slopes. Soft washes of blue-gray, silver, and muted earth tones create an atmosphere of damp air and early-season chill, while drifting cloud and fog blur the boundary between land and sky. Quiet and restrained, the work captures the stillness of a cold spring day before the landscape has fully awakened.",
+      "image": {
+        "id": "1KnaT04oZvj0KGqah7hXRV0MSo45dc58p",
+        "filename": "Cold-Spring.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1KnaT04oZvj0KGqah7hXRV0MSo45dc58p&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1KnaT04oZvj0KGqah7hXRV0MSo45dc58p",
+        "alt": "Cold Spring by Svitlana Ivasyuk"
+      },
+      "checkoutUrl": "https://buy.stripe.com/dRmeVc3Sf6xBaoe38lbZe0D?ref=ucchamptonroads.com",
+      "framed": true
     }
   ],
   "authors": [
