@@ -26,7 +26,7 @@ jobs:
 
       - name: Commit updated JSON
         run: |
-          if git diff --quiet -- gallery-data.json; then
+          if git diff --quiet -- gallery-data.json && [ -z "$(git status --porcelain -- gallery-data.json)" ]; then
             echo "gallery-data.json is already current."
             exit 0
           fi
