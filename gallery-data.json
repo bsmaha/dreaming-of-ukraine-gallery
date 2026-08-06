@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T02:39:45.862633+00:00",
+  "generatedAt": "2026-08-06T03:07:54.973506+00:00",
   "exhibition": {
     "title": "Dreaming of Ukraine"
   },
@@ -433,8 +433,8 @@
         "width": 11.5,
         "height": 23.5,
         "unit": "Inches",
-        "panelCount": 1,
-        "label": "11.5 × 23.5 in"
+        "panelCount": 3,
+        "label": "3 panels, each 11.5 × 23.5 in"
       },
       "orientation": "portrait",
       "price": {
@@ -934,8 +934,8 @@
         "width": 10,
         "height": 20,
         "unit": "Inches",
-        "panelCount": 1,
-        "label": "10 × 20 in"
+        "panelCount": 2,
+        "label": "2 panels, each 10 × 20 in"
       },
       "orientation": "portrait",
       "price": {
