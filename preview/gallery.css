@@ -1,0 +1,1153 @@
+/* =============================================================
+   Dreaming of Ukraine — exhibition gallery
+   Scoped entirely under .dou-gallery so nothing leaks into
+   normal Ghost pages. Plain CSS (no Tailwind directives) so it
+   can be loaded directly via {{asset 'css/gallery.css'}}.
+
+   Custom properties (all overridable per-site):
+     --dou-stage-bg        stage / exhibition wall background
+     --dou-stage-h         responsive height of the artwork stage
+     --dou-panel-spread    horizontal offset of neighbouring works
+     --dou-panel-scale     scale of the first neighbour panel
+     --dou-panel-rotate    rotateY applied to neighbour panels
+     --dou-panel-opacity   opacity of the first neighbour panel
+     --dou-duration        animation duration for slide movement
+     --dou-ease            easing curve for slide movement
+     --dou-modal-backdrop  backdrop colour for lightbox + bio modal
+     --dou-control         diameter of round controls
+     --dou-gold            warm accent (hairlines, eyebrow, focus)
+     --dou-blue            cool secondary accent
+     --dou-ink             text colour on the dark stage
+   ============================================================= */
+
+/* Tokens live on :root as well as .dou-gallery because the lightbox and
+   biography dialogs are portalled to <body>, outside the gallery scope.
+   Custom properties alone paint nothing, so nothing leaks. */
+:root,
+.dou-gallery {
+  --dou-stage-bg: #14162b;
+  --dou-stage-h: clamp(300px, 56vh, 620px);
+  --dou-panel-spread: 34%;
+  --dou-panel-scale: 0.7;
+  --dou-panel-rotate: 15deg;
+  --dou-panel-opacity: 0.5;
+  --dou-duration: 560ms;
+  --dou-ease: cubic-bezier(0.22, 0.61, 0.24, 1);
+  --dou-modal-backdrop: rgba(10, 11, 24, 0.95);
+  --dou-control: 52px;
+  --dou-gold: #c8a468;
+  --dou-blue: #3d6b99;
+  --dou-ink: #f3ece1;
+  --dou-hairline: rgba(200, 164, 104, 0.34);
+  --dou-radius: 3px;
+  --dou-rule: rgba(17, 17, 17, 0.15);
+  --dou-soft: rgba(17, 17, 17, 0.045);
+  --dou-focus: var(--ghost-accent-color, #1e17e0);
+}
+
+/* The exhibition stage and the overlays are dark surfaces: the same
+   tokens re-point to the warm gold hairline there. */
+.dou-band,
+.dou-overlay {
+  --dou-rule: var(--dou-hairline);
+  --dou-soft: rgba(200, 164, 104, 0.22);
+  --dou-focus: var(--dou-gold);
+}
+
+.dou-bio {
+  --dou-rule: rgba(17, 17, 17, 0.15);
+  --dou-soft: rgba(17, 17, 17, 0.045);
+  --dou-focus: var(--ghost-accent-color, #1e17e0);
+}
+
+.dou-gallery {
+  font-family: Lato, ui-sans-serif, system-ui, sans-serif;
+  overflow-x: clip;
+}
+
+.dou-gallery *,
+.dou-gallery *::before,
+.dou-gallery *::after {
+  box-sizing: border-box;
+}
+
+.dou-container {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.dou-gallery :focus-visible {
+  outline: 2px solid var(--dou-focus);
+  outline-offset: 3px;
+}
+
+/* ---------- Intro ---------------------------------------------------- */
+
+.dou-intro {
+  padding-block: 3rem 2.25rem;
+}
+
+.dou-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, currentColor 62%, transparent);
+}
+
+.dou-eyebrow::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(to right, var(--dou-rule), transparent);
+}
+
+.dou-title {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-weight: 400;
+  line-height: 1.05;
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  margin: 0;
+  text-wrap: balance;
+}
+
+.dou-intro-copy {
+  max-width: 62ch;
+  margin-top: 1.25rem;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.dou-intro-copy p {
+  margin: 0 0 1rem;
+}
+
+.dou-intro-copy p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Filters -------------------------------------------------- */
+
+.dou-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem 1.5rem;
+  padding: 1.25rem 0 1.5rem;
+  border-top: 1px solid var(--dou-rule);
+}
+
+.dou-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-width: 0;
+  flex: 1 1 170px;
+  max-width: 260px;
+}
+
+.dou-field label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, currentColor 60%, transparent);
+}
+
+.dou-select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.5rem 2.25rem 0.5rem 0.75rem;
+  font: inherit;
+  font-size: 0.9375rem;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 18px) 52%, calc(100% - 13px) 52%;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  border: 1px solid var(--dou-rule);
+  border-radius: var(--dou-radius);
+  cursor: pointer;
+}
+
+.dou-filters-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+.dou-count {
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  color: color-mix(in oklab, currentColor 72%, transparent);
+}
+
+.dou-clear {
+  min-height: 44px;
+  padding: 0 1rem;
+  font: inherit;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: inherit;
+  background: none;
+  border: 1px solid var(--dou-rule);
+  border-radius: var(--dou-radius);
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+
+.dou-clear:hover {
+  background: var(--dou-soft);
+}
+
+.dou-clear[hidden] {
+  display: none;
+}
+
+/* ---------- Stage band ---------------------------------------------- */
+
+.dou-band {
+  position: relative;
+  background: var(--dou-stage-bg);
+  color: var(--dou-ink);
+  padding: clamp(1.75rem, 4vw, 3rem) 0 clamp(1.25rem, 3vw, 2rem);
+  overflow: hidden;
+}
+
+.dou-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 70% 60% at 50% 38%,
+    rgba(255, 244, 224, 0.09),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.dou-stage {
+  position: relative;
+  height: var(--dou-stage-h);
+  perspective: 1900px;
+  perspective-origin: 50% 45%;
+  touch-action: pan-y;
+  cursor: grab;
+}
+
+.dou-stage:active {
+  cursor: grabbing;
+}
+
+.dou-track {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.dou-panel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform var(--dou-duration) var(--dou-ease),
+    opacity var(--dou-duration) var(--dou-ease);
+  will-change: transform, opacity;
+}
+
+.dou-panel[data-visible="true"] {
+  visibility: visible;
+}
+
+.dou-panel[data-active="false"] {
+  cursor: pointer;
+}
+
+.dou-frame {
+  position: relative;
+  height: var(--dou-stage-h);
+  aspect-ratio: var(--dou-ar, 1);
+  max-width: min(76vw, 980px);
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 30px 60px -24px rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+}
+
+.dou-panel[data-active="true"] .dou-frame {
+  border-color: var(--dou-rule);
+  box-shadow: 0 44px 90px -30px rgba(0, 0, 0, 0.9),
+    0 0 0 1px rgba(200, 164, 104, 0.18);
+}
+
+.dou-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 420ms ease;
+}
+
+.dou-img[data-loaded="true"] {
+  opacity: 1;
+}
+
+.dou-fallback {
+  position: absolute;
+  inset: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0 6px,
+    rgba(255, 255, 255, 0.02) 6px 12px
+  );
+}
+
+.dou-panel[data-failed="true"] .dou-fallback {
+  display: flex;
+}
+
+.dou-fallback-title {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.dou-fallback-note {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+/* Stage controls */
+
+.dou-stage-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 4vw, 2.5rem);
+  margin-top: clamp(1rem, 3vw, 1.75rem);
+}
+
+.dou-nav {
+  display: grid;
+  place-items: center;
+  width: var(--dou-control);
+  height: var(--dou-control);
+  padding: 0;
+  color: var(--dou-ink);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 220ms ease, border-color 220ms ease,
+    transform 220ms ease;
+}
+
+.dou-nav:hover {
+  background: rgba(200, 164, 104, 0.22);
+  border-color: var(--dou-rule);
+}
+
+.dou-nav:active {
+  transform: scale(0.94);
+}
+
+.dou-nav svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.dou-position {
+  min-width: 8ch;
+  text-align: center;
+  font-size: 0.8125rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  color: color-mix(in oklab, var(--dou-ink) 70%, transparent);
+}
+
+/* ---------- Details -------------------------------------------------- */
+
+.dou-details {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  padding: clamp(2rem, 5vw, 3.25rem) 0 clamp(2.5rem, 6vw, 4rem);
+  align-items: start;
+}
+
+.dou-art-title {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3.2vw, 2.25rem);
+  line-height: 1.15;
+  margin: 0 0 0.75rem;
+  text-wrap: pretty;
+}
+
+.dou-meta {
+  font-size: 0.9375rem;
+  letter-spacing: 0.06em;
+  color: color-mix(in oklab, currentColor 74%, transparent);
+  margin: 0 0 1.25rem;
+}
+
+.dou-tag {
+  display: inline-block;
+  margin-left: 0.75rem;
+  padding: 0.15em 0.6em;
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border: 1px solid var(--dou-rule);
+  border-radius: 999px;
+  vertical-align: 0.12em;
+}
+
+.dou-artist {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 44px;
+  margin: 0 0 1.5rem;
+  padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 999px;
+}
+
+button.dou-artist {
+  cursor: pointer;
+  border-color: var(--dou-rule);
+  transition: background-color 200ms ease;
+}
+
+button.dou-artist:hover {
+  background: var(--dou-soft);
+}
+
+.dou-avatar {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  background: rgba(200, 164, 104, 0.18);
+}
+
+.dou-initials {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: rgba(200, 164, 104, 0.2);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+}
+
+.dou-artist-name {
+  font-size: 1.0625rem;
+}
+
+.dou-artist-hint {
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.dou-description {
+  font-size: 1.0625rem;
+  line-height: 1.72;
+  margin: 0;
+  max-width: 68ch;
+}
+
+.dou-description[data-clamped="true"] {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.dou-more {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  min-height: 44px;
+  font: inherit;
+  font-size: 0.8125rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: inherit;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--dou-rule);
+  cursor: pointer;
+}
+
+.dou-more[hidden] {
+  display: none;
+}
+
+/* Purchase column */
+
+.dou-buy {
+  border-top: 1px solid var(--dou-rule);
+  padding-top: 1.5rem;
+}
+
+.dou-price {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  line-height: 1;
+  margin: 0 0 1.25rem;
+}
+
+.dou-price[hidden] {
+  display: none;
+}
+
+.dou-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dou-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 50px;
+  padding: 0.75rem 1.5rem;
+  font: inherit;
+  font-size: 0.875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: var(--dou-radius);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 220ms ease, color 220ms ease,
+    border-color 220ms ease;
+}
+
+.dou-btn-primary {
+  color: #fff;
+  background: var(--ghost-accent-color, var(--dou-blue));
+}
+
+.dou-btn-primary:hover {
+  background: var(--ghost-accent-color-dark, var(--dou-blue));
+  color: #fff;
+}
+
+.dou-btn-quiet {
+  color: inherit;
+  background: none;
+  border-color: var(--dou-rule);
+}
+
+.dou-btn-quiet:hover {
+  background: var(--dou-soft);
+  color: inherit;
+}
+
+.dou-btn svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.dou-state {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-height: 50px;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px dashed var(--dou-rule);
+  border-radius: var(--dou-radius);
+  color: color-mix(in oklab, currentColor 78%, transparent);
+}
+
+.dou-state::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  flex: 0 0 auto;
+}
+
+/* ---------- Boot / error / empty ------------------------------------ */
+
+.dou-boot {
+  display: grid;
+  place-items: center;
+  gap: 1.25rem;
+  min-height: 46vh;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.dou-boot-frame {
+  width: min(320px, 60vw);
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--dou-rule);
+  background: linear-gradient(
+      100deg,
+      transparent 20%,
+      rgba(200, 164, 104, 0.16) 42%,
+      transparent 64%
+    )
+    0 0 / 260% 100% no-repeat;
+  animation: dou-sheen 2.4s ease-in-out infinite;
+}
+
+@keyframes dou-sheen {
+  from {
+    background-position: 130% 0;
+  }
+  to {
+    background-position: -130% 0;
+  }
+}
+
+.dou-boot-note {
+  font-size: 0.75rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, currentColor 62%, transparent);
+}
+
+.dou-panelbox {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 3rem);
+  text-align: center;
+  border: 1px solid var(--dou-rule);
+  border-radius: var(--dou-radius);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dou-panelbox h2 {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin: 0 0 0.75rem;
+}
+
+.dou-panelbox p {
+  margin: 0 auto 1.5rem;
+  max-width: 46ch;
+  line-height: 1.7;
+}
+
+.dou-noscript {
+  max-width: 44rem;
+  margin: 2rem auto;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--dou-rule);
+  border-radius: var(--dou-radius);
+  line-height: 1.6;
+}
+
+.dou-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Overlays (lightbox + biography) ------------------------- */
+
+.dou-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(0.75rem, 3vw, 2.5rem);
+  background: var(--dou-modal-backdrop);
+  color: var(--dou-ink);
+  font-family: Lato, ui-sans-serif, system-ui, sans-serif;
+  animation: dou-fade 240ms ease both;
+}
+
+@keyframes dou-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.dou-overlay-close {
+  position: absolute;
+  top: clamp(0.75rem, 2vw, 1.5rem);
+  right: clamp(0.75rem, 2vw, 1.5rem);
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dou-overlay-close svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+
+/* lightbox */
+
+.dou-zoom-viewport {
+  position: relative;
+  width: 100%;
+  flex: 1 1 auto;
+  align-self: stretch;
+  margin: 3.5rem 0 4.75rem;
+  overflow: hidden;
+  touch-action: none;
+  display: grid;
+  place-items: center;
+  cursor: grab;
+}
+
+.dou-zoom-viewport[data-zoomed="false"] {
+  cursor: default;
+}
+
+.dou-zoom-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: center center;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.dou-zoom-bar {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(0.75rem, 2.5vw, 1.75rem);
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+}
+
+.dou-zoom-bar button {
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 0.75rem;
+  font: inherit;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: inherit;
+  background: none;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.dou-zoom-bar button:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.dou-zoom-bar svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+
+.dou-zoom-caption {
+  position: absolute;
+  top: clamp(0.9rem, 2.5vw, 1.75rem);
+  left: clamp(1rem, 3vw, 2rem);
+  right: 5rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.06em;
+  color: color-mix(in oklab, var(--dou-ink) 78%, transparent);
+}
+
+.dou-zoom-caption strong {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  letter-spacing: 0.01em;
+  color: var(--dou-ink);
+}
+
+/* biography */
+
+.dou-bio {
+  position: relative;
+  width: min(46rem, 100%);
+  max-height: min(86vh, 46rem);
+  display: flex;
+  flex-direction: column;
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  background: #fffdf7;
+  color: #333;
+  border-radius: var(--dou-radius);
+  box-shadow: 0 40px 90px -30px rgba(0, 0, 0, 0.7);
+}
+
+.dou-bio-head {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-right: 3rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--dou-rule);
+}
+
+.dou-bio-photo,
+.dou-bio-initials {
+  width: 84px;
+  height: 84px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  background: rgba(200, 164, 104, 0.2);
+}
+
+.dou-bio-initials {
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+}
+
+.dou-bio h2 {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.dou-bio-body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.dou-bio-body p {
+  margin: 0 0 1rem;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.dou-bio-body p:last-child {
+  margin-bottom: 0;
+}
+
+.dou-bio .dou-overlay-close {
+  color: #333;
+  background: rgba(0, 0, 0, 0.05);
+  border-color: var(--dou-rule);
+}
+
+html.dou-locked,
+html.dou-locked body {
+  overflow: hidden;
+}
+
+/* ---------- Responsive ---------------------------------------------- */
+
+@media (max-width: 900px) {
+  .dou-gallery {
+    --dou-panel-spread: 42%;
+    --dou-panel-scale: 0.62;
+    --dou-panel-rotate: 10deg;
+    --dou-panel-opacity: 0.38;
+  }
+
+  .dou-details {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+
+  .dou-filters-meta {
+    justify-content: flex-start;
+    flex-basis: 100%;
+  }
+
+  .dou-field {
+    max-width: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .dou-gallery {
+    --dou-stage-h: clamp(260px, 44vh, 420px);
+    --dou-panel-spread: 46%;
+    --dou-panel-scale: 0.5;
+    --dou-panel-rotate: 0deg;
+    --dou-panel-opacity: 0.3;
+    --dou-control: 48px;
+  }
+
+  .dou-frame {
+    max-width: 84vw;
+  }
+
+  .dou-field {
+    flex-basis: 100%;
+  }
+
+  .dou-zoom-viewport {
+    margin: 3.25rem 0 4.5rem;
+  }
+}
+
+/* ---------- Reduced motion ------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+  .dou-gallery {
+    --dou-duration: 1ms;
+    --dou-panel-rotate: 0deg;
+  }
+
+  .dou-panel,
+  .dou-img,
+  .dou-overlay,
+  .dou-boot-frame {
+    transition-duration: 1ms !important;
+    animation: none !important;
+  }
+}
+
+/* ---------- Preface: fundraising message + event card ---------------- */
+
+.dou-preface {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+  padding-block: 0 clamp(2rem, 5vw, 3rem);
+}
+
+.dou-mission {
+  border-top: 2px solid var(--ghost-accent-color, currentColor);
+  padding-top: 1.25rem;
+}
+
+.dou-mission-line {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  line-height: 1.2;
+  margin: 0;
+  color: var(--ghost-accent-color, inherit);
+  text-wrap: balance;
+}
+
+.dou-mission-note {
+  max-width: 48ch;
+  margin: 0.875rem 0 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: color-mix(in oklab, currentColor 68%, transparent);
+}
+
+.dou-event {
+  display: flex;
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+  align-items: flex-start;
+  padding: clamp(1.125rem, 2.5vw, 1.5rem);
+  border: 1px solid var(--dou-rule);
+  border-radius: var(--dou-radius);
+  background: var(--dou-soft);
+}
+
+.dou-event-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.dou-event-kicker {
+  margin: 0 0 0.375rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, currentColor 62%, transparent);
+}
+
+.dou-event-title {
+  font-family: "Abril Fatface", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.2;
+  margin: 0 0 0.875rem;
+}
+
+.dou-event-list {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.375rem 1rem;
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+.dou-event-list dt {
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding-top: 0.2em;
+  color: color-mix(in oklab, currentColor 58%, transparent);
+}
+
+.dou-event-list dd {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.dou-flyer {
+  flex: 0 0 auto;
+  width: clamp(96px, 12vw, 124px);
+}
+
+.dou-flyer-thumb {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-align: center;
+  background: none;
+  border: 0;
+  cursor: zoom-in;
+}
+
+.dou-flyer-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border: 1px solid var(--dou-rule);
+  border-radius: var(--dou-radius);
+  transition: opacity 200ms ease;
+}
+
+.dou-flyer-thumb:hover img {
+  opacity: 0.82;
+}
+
+.dou-flyer-cta {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .dou-preface {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 420px) {
+  .dou-event {
+    flex-direction: column;
+  }
+
+  .dou-flyer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .dou-flyer-thumb {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dou-flyer-thumb img {
+    width: 84px;
+    flex: 0 0 auto;
+  }
+
+  .dou-flyer-cta {
+    margin-top: 0;
+  }
+}
