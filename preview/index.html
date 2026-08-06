@@ -19,22 +19,19 @@
     body {
       margin: 0;
       color: #181818;
-      background: #f7f4ee;
+      background: #ffffff;
       font-family: Lato, ui-sans-serif, system-ui, sans-serif;
     }
     a { color: inherit; }
     .preview-shell {
       min-height: 100vh;
-      background:
-        radial-gradient(circle at 12% 5%, rgba(61,107,153,.08), transparent 28rem),
-        radial-gradient(circle at 88% 8%, rgba(200,164,104,.11), transparent 26rem),
-        #f7f4ee;
+      background: #ffffff;
     }
     .preview-header {
       position: relative;
       z-index: 10;
       border-bottom: 1px solid rgba(17,17,17,.12);
-      background: rgba(247,244,238,.92);
+      background: rgba(255,255,255,.96);
       backdrop-filter: blur(12px);
     }
     .preview-header__inner,
@@ -50,10 +47,15 @@
       gap: 1.5rem;
     }
     .preview-brand {
+      display: inline-flex;
+      align-items: center;
       text-decoration: none;
-      font-family: "Abril Fatface", Georgia, serif;
-      font-size: clamp(1.2rem, 3vw, 1.75rem);
       line-height: 1;
+    }
+    .preview-brand img {
+      display: block;
+      width: clamp(150px, 19vw, 225px);
+      height: auto;
     }
     .preview-nav {
       display: flex;
@@ -104,7 +106,7 @@
   <div class="preview-shell">
     <header class="preview-header">
       <div class="preview-header__inner">
-        <a class="preview-brand" href="#">Ukrainian Community Center</a>
+        <a class="preview-brand" href="https://ucchamptonroads.com/" aria-label="Ukrainian Community Center of Hampton Roads home"><img src="https://ucchamptonroads.com/content/images/2025/06/UCC-logo.png" alt="Ukrainian Community Center of Hampton Roads"></a>
         <nav class="preview-nav" aria-label="Preview navigation">
           <a href="#">Home</a>
           <a href="#gallery" aria-current="page">Art Gallery</a>
@@ -136,10 +138,19 @@
                 <h2 class="dou-event-title" id="dou-event-title">Saturday, July 18, 2026</h2>
                 <dl class="dou-event-list">
                   <dt>Time</dt>
-                  <dd>1:00–4:00 PM</dd>
+                  <dd>2:00–4:00 PM</dd>
                   <dt>Venue</dt>
                   <dd>Meyera E. Oberndorf Central Library</dd>
                 </dl>
+              </div>
+              <div class="dou-flyer">
+                <button class="dou-flyer-thumb" type="button"
+                  data-dou-image="https://ucchamptonroads.com/content/images/2026/07/02ffd2d9e673349fc4f653e05d9c24d3-1.JPEG"
+                  data-dou-image-alt="Meet and Greet with the Artists event flyer"
+                  data-dou-image-title="Meet &amp; Greet with the Artists">
+                  <img src="https://ucchamptonroads.com/content/images/2026/07/02ffd2d9e673349fc4f653e05d9c24d3-1.JPEG" alt="Meet and Greet with the Artists event flyer" loading="lazy" decoding="async">
+                  <span class="dou-flyer-cta">View event flyer</span>
+                </button>
               </div>
             </aside>
           </div>
