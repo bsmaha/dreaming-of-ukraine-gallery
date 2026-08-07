@@ -1,14 +1,14 @@
 {
   "ok": true,
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T12:25:47.514711+00:00",
+  "generatedAt": "2026-08-07T13:51:58.141007+00:00",
   "exhibition": {
     "title": "Dreaming of Ukraine"
   },
   "counts": {
     "artworks": 40,
-    "authors": 5,
-    "warnings": 0
+    "authors": 7,
+    "warnings": 1
   },
   "artworks": [
     {
@@ -110,7 +110,18 @@
       "stripeProductId": "prod_Upt1a9HYvngfqC",
       "title": "Sunflowers",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Acrylic",
       "mediumFilters": [
         "Acrylic"
@@ -297,7 +308,18 @@
       "stripeProductId": "prod_UpskGTHZsYvPoy",
       "title": "Mary and Williams Bridge",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil",
       "mediumFilters": [
         "Oil"
@@ -378,7 +400,12 @@
       "stripeProductId": "prod_UpsgbLVKYBXbRq",
       "title": "Taste of Home",
       "artistName": "Viktoriia Useinova",
-      "artist": null,
+      "artist": {
+        "id": "AUT-006",
+        "name": "Viktoriia Useinova",
+        "bio": "My name is Viktoriia Useinova. I am 31 years old, a mother of two, and originally from Kherson, Ukraine.\n\nCreativity has always been an important part of my life. I have loved drawing and painting since childhood, attended art school, and later earned a university degree in Design.\n\nFour years ago, because of the war in Ukraine, I moved to the United States, where I had to begin a new chapter of my life. Today, I work as a nail technician, but my love for art and the desire to create have always remained a part of who I am.\n\nThe painting presented in this exhibition is my first work after a long break and, in many ways, marks my return to painting. Through this piece, I wanted to capture a part of my memories, the warmth of home, and my connection to my hometown of Kherson.",
+        "photo": null
+      },
       "medium": "Oil",
       "mediumFilters": [
         "Oil"
@@ -459,7 +486,18 @@
       "stripeProductId": "prod_UpsaVoExNxsVMr",
       "title": "Gentle Wave",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil on canvas",
       "mediumFilters": [
         "Oil"
@@ -494,7 +532,18 @@
       "stripeProductId": "prod_UpsXZeujf8F1OI",
       "title": "Gray Cloud",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil on canvas",
       "mediumFilters": [
         "Oil"
@@ -529,7 +578,18 @@
       "stripeProductId": "prod_UpsQSyTKG1Dcfr",
       "title": "Bahamas, Small Island.",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil",
       "mediumFilters": [
         "Oil"
@@ -599,7 +659,18 @@
       "stripeProductId": "prod_UpsIWj8Wu2wOXf",
       "title": "Green Light",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil",
       "mediumFilters": [
         "Oil"
@@ -960,7 +1031,18 @@
       "stripeProductId": "prod_UprvITDEZxAkLb",
       "title": "Poppies",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Acrylic",
       "mediumFilters": [
         "Acrylic"
@@ -1087,7 +1169,18 @@
       "stripeProductId": "",
       "title": "I Love You Forever, Mom",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil",
       "mediumFilters": [
         "Oil"
@@ -1105,7 +1198,7 @@
         "currency": "USD",
         "formatted": ""
       },
-      "status": "not_for_sale",
+      "status": "sold",
       "description": "A warm double portrait captures the closeness between a mother and daughter. Seated side by side with an arm resting gently across the chair, the two figures share open smiles and a quiet sense of affection. Rich teal and blue tones unify the composition, while expressive brushwork gives the portrait warmth, immediacy, and the feeling of a cherished family memory.",
       "image": {
         "id": "1sjyQHqAHvzlyNWknggeAMhpx5BcM8HZf",
@@ -1122,7 +1215,18 @@
       "stripeProductId": "prod_V1H6zxiQVsSXAo",
       "title": "Pink Spring",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil",
       "mediumFilters": [
         "Oil"
@@ -1157,7 +1261,18 @@
       "stripeProductId": "prod_V1HErh6vBOyvSL",
       "title": "Bahamas. Princess Cays Beach",
       "artistName": "Nataliia Sytnyk",
-      "artist": null,
+      "artist": {
+        "id": "AUT-007",
+        "name": "Nataliia Sytnyk",
+        "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+        "photo": {
+          "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "filename": "Nataliia-Sytnyk.jpg",
+          "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+          "alt": "Nataliia Sytnyk"
+        }
+      },
       "medium": "Oil",
       "mediumFilters": [
         "Oil"
@@ -1754,7 +1869,27 @@
         "originalUrl": "https://drive.google.com/uc?export=view&id=1lfIHrBrhxcp8cbOllCs0kI00pIoxvoPl",
         "alt": "Oksana Rubio"
       }
+    },
+    {
+      "id": "AUT-006",
+      "name": "Viktoriia Useinova",
+      "bio": "My name is Viktoriia Useinova. I am 31 years old, a mother of two, and originally from Kherson, Ukraine.\n\nCreativity has always been an important part of my life. I have loved drawing and painting since childhood, attended art school, and later earned a university degree in Design.\n\nFour years ago, because of the war in Ukraine, I moved to the United States, where I had to begin a new chapter of my life. Today, I work as a nail technician, but my love for art and the desire to create have always remained a part of who I am.\n\nThe painting presented in this exhibition is my first work after a long break and, in many ways, marks my return to painting. Through this piece, I wanted to capture a part of my memories, the warmth of home, and my connection to my hometown of Kherson.",
+      "photo": null
+    },
+    {
+      "id": "AUT-007",
+      "name": "Nataliia Sytnyk",
+      "bio": "Nataliia Sytnyk. Born 1974 in Ukraine in the city of Poltava.  Draws from childhood.  Graduated from Poltava Pedagogical University. Music and singing teacher. She is a professional artist and musician. She has had personal exhibitions in Ukraine, France and America. Many of her paintings are in private collections. Works with oil and acrylic. She loves to paint portraits and landscapes and adores Monet.",
+      "photo": {
+        "id": "1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+        "filename": "Nataliia-Sytnyk.jpg",
+        "url": "https://drive.google.com/thumbnail?id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=1tPr-Y-MdLIawNPnxcgMKlfWbVzV_r89F",
+        "alt": "Nataliia Sytnyk"
+      }
     }
   ],
-  "warnings": []
+  "warnings": [
+    "AUT-006: author image not found: Viktoriia-Usweinova.jpg"
+  ]
 }
