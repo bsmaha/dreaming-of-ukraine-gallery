@@ -44,9 +44,22 @@ def fetch_text(url: str) -> str:
 
 
 def sheet_rows(tab_name: str) -> list[dict[str, str]]:
-    query = urllib.parse.urlencode({"tqx": "out:csv", "sheet": tab_name})
+    cache_buster = str(int(datetime.now(timezone.utc).timestamp() * 1000))
+
+    query = urllib.parse.urlencode(
+        {
+            "tqx": "out:csv",
+            "sheet": tab_name,
+            "_": cache_buster,
+        }
+    )
+
     url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?{query}"
-    return [dict(row) for row in csv.DictReader(io.StringIO(fetch_text(url)))]
+
+    return [
+        dict(row)
+        for row in csv.DictReader(io.StringIO(fetch_text(url)))
+    ]
 
 
 def normalize_filename(value: str) -> str:
