@@ -1,14 +1,14 @@
 {
   "ok": true,
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T13:51:58.141007+00:00",
+  "generatedAt": "2026-08-07T14:50:32.162069+00:00",
   "exhibition": {
     "title": "Dreaming of Ukraine"
   },
   "counts": {
     "artworks": 40,
     "authors": 7,
-    "warnings": 1
+    "warnings": 0
   },
   "artworks": [
     {
@@ -404,7 +404,13 @@
         "id": "AUT-006",
         "name": "Viktoriia Useinova",
         "bio": "My name is Viktoriia Useinova. I am 31 years old, a mother of two, and originally from Kherson, Ukraine.\n\nCreativity has always been an important part of my life. I have loved drawing and painting since childhood, attended art school, and later earned a university degree in Design.\n\nFour years ago, because of the war in Ukraine, I moved to the United States, where I had to begin a new chapter of my life. Today, I work as a nail technician, but my love for art and the desire to create have always remained a part of who I am.\n\nThe painting presented in this exhibition is my first work after a long break and, in many ways, marks my return to painting. Through this piece, I wanted to capture a part of my memories, the warmth of home, and my connection to my hometown of Kherson.",
-        "photo": null
+        "photo": {
+          "id": "19m-07a3bXD8dbcQk6ITitHYpsLNRJubP",
+          "filename": "Viktoriia-Useinova.jpg",
+          "url": "https://drive.google.com/thumbnail?id=19m-07a3bXD8dbcQk6ITitHYpsLNRJubP&sz=w1600",
+          "originalUrl": "https://drive.google.com/uc?export=view&id=19m-07a3bXD8dbcQk6ITitHYpsLNRJubP",
+          "alt": "Viktoriia Useinova"
+        }
       },
       "medium": "Oil",
       "mediumFilters": [
@@ -1874,7 +1880,13 @@
       "id": "AUT-006",
       "name": "Viktoriia Useinova",
       "bio": "My name is Viktoriia Useinova. I am 31 years old, a mother of two, and originally from Kherson, Ukraine.\n\nCreativity has always been an important part of my life. I have loved drawing and painting since childhood, attended art school, and later earned a university degree in Design.\n\nFour years ago, because of the war in Ukraine, I moved to the United States, where I had to begin a new chapter of my life. Today, I work as a nail technician, but my love for art and the desire to create have always remained a part of who I am.\n\nThe painting presented in this exhibition is my first work after a long break and, in many ways, marks my return to painting. Through this piece, I wanted to capture a part of my memories, the warmth of home, and my connection to my hometown of Kherson.",
-      "photo": null
+      "photo": {
+        "id": "19m-07a3bXD8dbcQk6ITitHYpsLNRJubP",
+        "filename": "Viktoriia-Useinova.jpg",
+        "url": "https://drive.google.com/thumbnail?id=19m-07a3bXD8dbcQk6ITitHYpsLNRJubP&sz=w1600",
+        "originalUrl": "https://drive.google.com/uc?export=view&id=19m-07a3bXD8dbcQk6ITitHYpsLNRJubP",
+        "alt": "Viktoriia Useinova"
+      }
     },
     {
       "id": "AUT-007",
@@ -1889,7 +1901,5 @@
       }
     }
   ],
-  "warnings": [
-    "AUT-006: author image not found: Viktoriia-Usweinova.jpg"
-  ]
+  "warnings": []
 }
