@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T18:42:36.184593+00:00",
+  "generatedAt": "2026-08-07T02:12:48.691592+00:00",
   "exhibition": {
     "title": "Dreaming of Ukraine"
   },
@@ -1034,7 +1034,7 @@
         "alt": "Tree of Life, Petrykivka by Svitlana Ivasyuk"
       },
       "checkoutUrl": "https://buy.stripe.com/5kQbJ0fAX2hl9ka8sFbZe0g?ref=ucchamptonroads.com",
-      "framed": false
+      "framed": true
     },
     {
       "id": "ART-026",
@@ -1677,9 +1677,9 @@
       },
       "orientation": "landscape",
       "price": {
-        "amount": 20,
+        "amount": 200,
         "currency": "USD",
-        "formatted": "$20"
+        "formatted": "$200"
       },
       "status": "available",
       "description": "A cool, mist-filled landscape unfolds across a rugged hillside, where dark, windswept trees punctuate the pale slopes. Soft washes of blue-gray, silver, and muted earth tones create an atmosphere of damp air and early-season chill, while drifting cloud and fog blur the boundary between land and sky. Quiet and restrained, the work captures the stillness of a cold spring day before the landscape has fully awakened.",
